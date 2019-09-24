@@ -1,0 +1,79 @@
+<html lang="es">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+		<!-- Meta tags -->
+		<!--stylesheets-->
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css./bootstrap.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="Incidente.css">
+		
+	</head>
+
+<body>
+		<header>
+			<div class="container">
+			<h2 id="titulo" align="center" class="titulo">Consultar Incidentes</h2>
+			</div>
+		</header>
+		
+	
+	<div class="bg-w3layouts-main">
+		<div class="cinta"></div><br>
+		<div class="contenedor">
+			<div class="col">
+				<div class="form-group my-2">
+					<img class="img-fluid" class="img-ts" src="icon/Holcim.png" id="imgHol" >
+				</div>
+			</div>
+		</div>
+		<form method="get" action="" onsubmit="this.reset()" class="main-form">
+			<label>Visualizar eventos pendientes</label>
+			<div class="form-row">
+				<div class="col-xs-6 col-md-auto">
+					<div class="form-group my-2">
+						<table style="center" class="table">
+						  <thead>
+							<tr>
+							  <th scope="col"># Incidente</th>
+							  <th scope="col">Incidente</th>
+							</tr>
+						  </thead>
+						  <tbody>
+							<tr>
+							  <th scope="row">1</th>
+							  <td>Comenzo a llover</td>
+							</tr>
+							<tr>
+							  <th scope="row">2</th>
+							  <td>Se poncho un neumatico del camion X</td>
+							</tr>
+							<tr>
+							  <th scope="row">3</th>
+							  <td>No hay luz desde hace 1 hora</td>
+							</tr>
+						  </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</form>
+		<div class="botones">
+			<button style="position: float; margin: 27px 0px 0px 1px;" name="btnCerrar" id="boton" class="btn btn-danger" id="btn" type="submit">Cerrar evento</button>
+		
+			<button style="position: float; margin: 27px 0px 0px 2px;" name="btnEditar" id="boton" class="btn btn-primary" id="btn" onclick="location.href='file:///C:/Users/mago_/OneDrive/Documentos/EVENTO%20HTML/Terminar.html'" type="submit">Editar evento</button>
+			
+			<button style="position: float; margin: 27px 0px 0px 3px;" name="btnRegresar" id="boton" class="btn btn-primary" id="btn" onclick="location.href='file:///C:/Users/mago_/OneDrive/Documentos/EVENTO%20HTML/Incidente.html'" type="submit">Regresar</button>
+			
+			<button style="position: float; margin: 27px 0px 0px 4px;" name="btnSalir" id="boton" class="btn btn-success" id="btn" onclick="location.href='file:///C:/Users/mago_/OneDrive/Documentos/EVENTO%20HTML/Incidente.html'" type="submit">Salir</button>
+		</div>
+	</div>
+</body>
+	
+</html>
